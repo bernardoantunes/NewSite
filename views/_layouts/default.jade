@@ -1,0 +1,56 @@
+html
+
+title #{title}
+meta(name='author', content='Bernardo Antunes')
+meta(name='description', content='Bernardo Antunes is a thinker, father and world citizen. Here you can access his notes, curriculum vitae and contacts.')
+link(rel='image_src', href='/images/MyFace.png')
+// Add the following three tags inside head
+meta(itemprop='name', content='Bernardo Antunes')
+meta(itemprop='description', content='Bernardo Antunes is a thinker, father and world citizen. Here you can access his notes, curriculum vitae and contacts.')
+meta(itemprop='image', content='/images/MyFace.png')
+meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0')
+// Place favicon.ico and apple-touch-icon.png in the root directory
+link(rel='stylesheet', href='/stylesheets/normalize.css')
+link(rel='stylesheet', href='/stylesheets/main.css')
+script(src='/javascripts/vendor/modernizr-2.6.1.min.js')
+script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+script
+  window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\\/script>')
+script(type='text/javascript', src='/javascripts/jquery.fittext.js')
+// Here's Gridlet, the grid overlay script.
+// <script src="/js/UnitGS.js"></script>
+//if lt IE 7
+  p.chromeframe
+    | You are using an outdated browser.
+    a(href='http://browsehappy.com/') Upgrade your browser today
+    | or
+    a(href='http://www.google.com/chromeframe/?redirect=true') install Google Chrome Frame
+    | to better experience this site.
+//if lt IE 7
+  p.chromeframe
+    | You are using an outdated browser.
+    a(href='http://browsehappy.com/') Upgrade your browser today
+    | or
+    a(href='http://www.google.com/chromeframe/?redirect=true') install Google Chrome Frame
+    | to better experience this site.
+//if lt IE 7
+  p.chromeframe
+    | You are using an outdated browser.
+    a(href='http://browsehappy.com/') Upgrade your browser today
+    | or
+    a(href='http://www.google.com/chromeframe/?redirect=true') install Google Chrome Frame
+    | to better experience this site.
+//if lt IE 7
+  p.chromeframe
+    | You are using an outdated browser.
+    a(href='http://browsehappy.com/') Upgrade your browser today
+    | or
+    a(href='http://www.google.com/chromeframe/?redirect=true') install Google Chrome Frame
+    | to better experience this site.
+// Add your site or application content here
+#asDesigned
+    include ../_includes/header
+    block content
+    include ../_includes/footer
+script(src='/javascripts/plugins.js')
+script(src='/javascripts/main.js')
