@@ -1,24 +1,17 @@
 {
-  "name": "NewSite",
-  "version": "0.0.0",
-  "description": "Just some tests",
-  "main": "server.js",
-  "dependencies": {
-    "express": "~4.0.0"
-  },
-  "devDependencies": {},
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bernardoantunes/NewSite"
-  },
-  "author": "Bernardo Antunes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bernardoantunes/NewSite/issues"
-  },
-  "homepage": "https://github.com/bernardoantunes/NewSite"
+  "dependencies": {
+    "express": "~4.0.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0"
+  }
 }
