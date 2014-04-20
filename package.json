@@ -1,0 +1,24 @@
+{
+  "name": "NewSite",
+  "version": "0.0.0",
+  "description": "Just some tests",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bernardoantunes/NewSite"
+  },
+  "author": "Bernardo Antunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardoantunes/NewSite/issues"
+  },
+  "homepage": "https://github.com/bernardoantunes/NewSite"
+}
